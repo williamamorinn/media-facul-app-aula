@@ -9,17 +9,17 @@ const styles = StyleSheet.create({
     info: {
         textAlign: 'center',
         fontSize: 18,
-        margimBottom: 10,
+        marginBottom: 10,
     },
 
     media: {
-        bachgroundcolor: 'DDD',
+        backgroundColor: '#DDD',
         fontSize: 38,
         textAlign: 'center',
         fontWeigth: 'bold',
         padding: 10,
-        bordTopLeftRadius: 10,
-        bordTopRigthtRadius: 10,
+        borderTopLeftRadius: 10,
+        borderTopRightRadius: 10,
 
     },
 
@@ -28,17 +28,17 @@ const styles = StyleSheet.create({
         color: '#FFF',
         textAlign: 'center',
         padding: 10,
-        bordBottomLeftRadius: 10,
-        bordBottomRigthRadius: 10,
+        borderBottomLeftRadius: 10,
+        borderBottomRightRadius: 10,
 
     },
 
     corReprovado: {
-        backgroundcolor: '#000',
+        backgroundColor: '#D00',
     },
 
     corProvaFinal: {
-        backgroundcolor: '#FB0',
+        backgroundColor: '#FB0',
     },
 
     corAprovado: {
