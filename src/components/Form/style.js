@@ -10,6 +10,16 @@ const styles = StyleSheet.create({
         borderTopRightRadius: 20,
     },
 
+    alerta: {
+        backgroundColor: '#F00',
+        fontSize: 20,
+        textAlign: 'center',
+        color: '#FFF',
+        marginBottom: 20,
+        padding: 10,
+        borderRadius: 5,
+    },
+
     label: {
        fontSize: 18,
        textAlign: 'center',
@@ -25,6 +35,7 @@ const styles = StyleSheet.create({
     },
 
     button: {
+        fontSize:20,
         backgroundColor: '#F90',
         padding: 10,
         borderRadius: 10,
